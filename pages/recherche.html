@@ -14,19 +14,29 @@
 
 <body>
   <div class="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
-    <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+    <div x-data="{ open: false }"
+      class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
       <div class="p-4 flex flex-row items-center justify-between">
-        <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Samba N'diaye</a>
+        <a href="#"
+          class="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Samba
+          N'diaye</a>
         <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-            <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-            <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            <path x-show="!open" fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+            <path x-show="open" fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
           </svg>
         </button>
       </div>
-      <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="../index.html">Infos Personnelles</a>
-        <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">Recherches</a> 
+      <nav :class="{'flex': open, 'hidden': !open}"
+        class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+        <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          href="../index.html">Infos Personnelles</a>
+        <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          href="#">Recherches</a>
       </nav>
     </div>
   </div>
@@ -355,8 +365,10 @@
                         Ndiaye</span>
                     </li>
                     <li> <a href="../public/pdfs/publication/20-Paper_CARI_2014.pdf"
-                        class="text-blue-600 underline">Routage Préfixé dans GRAPP&S Applications à un Système Hiérarchique de Gestion de Données</a>, <span
-                        class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span class="font-bold underline">Samba Ndiaye</span></span>
+                        class="text-blue-600 underline">Routage Préfixé dans GRAPP&S Applications à un Système
+                        Hiérarchique de Gestion de Données</a>, <span class="italic text-black"> Thierno Ahmadou DIALLO,
+                        Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span class="font-bold underline">Samba
+                          Ndiaye</span></span>
                     </li>
                   </ul>
                 </div>
@@ -369,12 +381,14 @@
                 <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
                   <ul class="list-decimal px-2">
                     <li class="mb-5"> <a href="../public/pdfs/publication/27-Paper_SPRINGER_2009.pdf"
-                        class="text-blue-600 underline">A Secure Protocol to Maintain Data Privacy in Data Mining</a>, <span
-                        class="italic text-black"> Fodé Camara,<span class="font-bold underline">Samba Ndiaye</span>, Yahya Slimani</span>
+                        class="text-blue-600 underline">A Secure Protocol to Maintain Data Privacy in Data Mining</a>,
+                      <span class="italic text-black"> Fodé Camara,<span class="font-bold underline">Samba
+                          Ndiaye</span>, Yahya Slimani</span>
                     </li>
                     <li> <a href="../public/pdfs/publication/35-Paper_ModouGueye_ACM_2009.pdf"
-                        class="text-blue-600 underline">Database replication in large scale systems: optimizing the number of replicas</a>, <span
-                        class="italic text-black"> Modou Gueye, Idrissa Sarr, <span class="font-bold underline">Samba Ndiaye</span></span>
+                        class="text-blue-600 underline">Database replication in large scale systems: optimizing the
+                        number of replicas</a>, <span class="italic text-black"> Modou Gueye, Idrissa Sarr, <span
+                          class="font-bold underline">Samba Ndiaye</span></span>
                     </li>
                   </ul>
                 </div>
@@ -392,26 +406,483 @@
               <div class="w-2/5 px-2 py-10 ">
               </div>
             </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-white z-10 bg-black font-thin">
+                    <div>2010</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/31-Paper_BassirouNgom_CARI_2010.pdf"
+                        class="text-blue-600 underline">Routage distribué de flux RSS</a>,
+                      <span class="italic text-black"> Ngom Bassirou, Sarr Idrissa, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Gueye Modou</span>
+                    </li>
+                    <li> <a href="../public/pdfs/publication/32-Paper_FodeCamara_CARI_2010.pdf"
+                        class="text-blue-600 underline">Datamining et vie privée</a>, <span class="italic text-black">
+                        Fodé Camara, Yahya Slimani, <span class="font-bold underline">Samba Ndiaye</span></span>
+                    </li>
+                    <li> <a href="../public/pdfs/publication/33-Paper_BassirouNgom_CARI_2010.pdf"
+                        class="text-blue-600 underline">Datamining et vie privée</a>, <span class="italic text-black">
+                        Fodé Camara, Yahya Slimani, <span class="font-bold underline">Samba Ndiaye</span></span>
+                    </li>
+                    <li> <a href="../public/pdfs/publication/44-Paper_CheikhouTHIAM_CARI_2010.pdf"
+                        class="text-blue-600 underline">DGIS : Approche distribuée pour une optimisation de la
+                        découverte de ressources dans les grilles</a>, <span class="italic text-black"> Cheikhou THIAM,
+                        Ibrahima NIANG, <span class="font-bold underline">Samba Ndiaye</span>, Yahya SLIMANI</span>
+                    </li>
+                    <li> <a href="../public/pdfs/publication/46-Paper_ARIMA_Journal_Vol_1_2010.pdf"
+                        class="text-blue-600 underline">Datamining et vie privée</a>, <span class="italic text-black">
+                        Fodé Camara, Yahya Slimani, <span class="font-bold underline">Samba Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/42-Paper_IEEE_2011.pdf"
+                        class="text-blue-600 underline">Pastoral Mobility Optimization based on a Mobile Geographic
+                        Information System (GIS) for Rural Development</a>,
+                      <span class="italic text-black"> Ibrahima Niang, Demanou Cerille, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Papa Dame Ba</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-black z-10 bg-white font-thin">
+                    <div>2011</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-white z-10 bg-black font-thin">
+                    <div>2012</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/25-Paper_CNRIA_2012.pdf"
+                        class="text-blue-600 underline">GrAPP&S Data Grid Une approche de type grille et système pair à
+                        pair pour le stockage de données</a>,
+                      <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL,
+                        <span class="font-bold underline">Samba
+                          Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/28-Paper_Chapter Book_SPRINGER_2012.pdf"
+                        class="text-blue-600 underline">Optimizing Pastoral Mobility Based on Mobile Geographic
+                        Information Systems (MGIS)</a>,
+                      <span class="italic text-black"> Ibrahima Niang, Cyrille Demanou, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Papa Dame Ba</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/36-Paper_IJAST_Journal_Vol-43_2012.pdf"
+                        class="text-blue-600 underline">A Novel RFE-SVM-based Feature Selection Approach for
+                        Classification</a>,
+                      <span class="italic text-black"> Mouhamadou Lamine Samb, Fodé Camara, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Yahya Slimani, Mohamed Amir Esseghir</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/37-Paper_IJAST_Journal_Vol-42_2012.pdf"
+                        class="text-blue-600 underline">An Approach to Overcome Inference Channels on k-anonymous Data</a>,
+                      <span class="italic text-black"> Ousseynou Sané, Fodé Camara, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Yahya Slimani</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/38-Paper_IJCSI_Journal_Vol_9-Issue_1-No_2_2012.pdf"
+                      class="text-blue-600 underline">Privacy Preserving RFE-SVM for Distributed Gene Selection</a>,
+                    <span class="italic text-black"> Fodé Camara, Mouhamadou Lamine Samb, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Yahya Slimani</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/40-Paper_ARIMA_Journal_Vol_1_2012.pdf"
+                      class="text-blue-600 underline">Blocage des canaux d’inférences dans les données k-anonymes</a>,
+                    <span class="italic text-black"> Ousseynou Sané, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Yahya Slimani</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/48-Paper_CARI_2012.pdf"
+                      class="text-blue-600 underline">Architecture répartie à large échelle pour le traitement parallèle de requêtes de biodiversité</a>,
+                    <span class="italic text-black"> Ndiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/9-Paper_ChapterBook_Springer_AFRICOMM_2012.pdf"
+                      class="text-blue-600 underline">Friticores: A RSS Feed Monitoring and Dissemination System</a>,
+                    <span class="italic text-black"> Mesaac Makpangou, Bassirou Ngom, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/21-Paper_Springer_AFRICOMM_2013.pdf"
+                        class="text-blue-600 underline">GrAPP&S, a Distributed Framework for E-learning Resources Sharing</a>,
+                      <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENE, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Youssou Dieng</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/23-Paper_UbiMob_2013.pdf"
+                      class="text-blue-600 underline">GRAPP&S, une Architecture Multi-Échelle pour les Données et le Services</a>,
+                    <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/47-Paper_CNRIA_2013.pdf"
+                      class="text-blue-600 underline">Traitement décentralisé de requêtes de biodiversité</a>,
+                    <span class="italic text-black"> Ndiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-black z-10 bg-white font-thin">
+                    <div>2013</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+              </div>
+
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-white z-10 bg-black font-thin">
+                    <div>2014</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/10-Paper_ComPAS_2014.pdf"
+                        class="text-blue-600 underline">FreeCore : Un substrat d’indexation des filtres de Bloom fragmentés pour la recherche par mots clés</a>,
+                      <span class="italic text-black"> Mesaac Makpangou, Bassirou Ngom, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/11-Paper_ARIMA_Journal-vol.17_2014.pdf"
+                      class="text-blue-600 underline">Approche de sélection d’attributs pour la classification  basée sur l’algorithme RFE-SVM</a>,
+                    <span class="italic text-black"> Mouhamadou Lamine SAMB, Fodé CAMARA, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Yahya SLIMANI, Mohamed Amir ESSEGHIR</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/12-Paper_ARIMA_Journal-vol.18_2014.pdf"
+                      class="text-blue-600 underline">Algorithmes de traitement de requêtes de biodiversité dans un environnement distribué</a>,
+                    <span class="italic text-black"> Ndiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/20-Paper_CARI_2014.pdf"
+                      class="text-blue-600 underline">Routage Préfixé dans GRAPP&S Applications à un Système Hiérarchique de Gestion de Données</a>,
+                    <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/24-Paper_CARI_2014.pdf"
+                      class="text-blue-600 underline">Analyse spatio-temporelle de la Fièvre de la Vallée du Rift au Ferlo (Sénégal)</a>,
+                    <span class="italic text-black"> Fanta Bouba, Alassane Bah, Christophe Cambier, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Jacques-André Ndione; Maguelonne Teisseire</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/25-Paper_CARI_2014.pdf"
+                      class="text-blue-600 underline">BigBio : Utiliser les techniques du Big data pour les données de la Biodiversité</a>,
+                    <span class="italic text-black"> Ndiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/43-Paper_ARIMA_Journal_Vol.1_2014.pdf"
+                      class="text-blue-600 underline">Nouvelle approche de sélection d’attributs pour la classification  basée sur l’algorithme RFE-SVM</a>,
+                    <span class="italic text-black"> Mouhamadou Lamine SAMB, Fodé CAMARA, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Yahya SLIMANI, Mohamed Amir ESSEGHIR</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/6-Paper_ARIMA-Vol1_2014.pdf"
+                      class="text-blue-600 underline">Analyse spatio-temporelle de la Fièvre de la Vallée du Rift au Ferlo (Sénégal)</a>,
+                    <span class="italic text-black"> Fanta Bouba, Alassane Bah, Christophe Cambier, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Jacques-André Ndione, Maguelonne Teisseire</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/7-Paper_Springer_ActaBiotheoretica_2014.pdf"
+                      class="text-blue-600 underline">Decision Making Environment on Rift Valley Fever in Ferlo (Senegal)</a>,
+                    <span class="italic text-black"> Fanta Bouba, Alassane Bah, Christophe Cambier, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span>, Jacques-André Ndione, Maguelonne Teisseire</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/8-Paper_ChapterBook_Springer_2014.pdf"
+                      class="text-blue-600 underline">Green and Distributed Architecture for Managing Big Data of Biodiversity</a>,
+                    <span class="italic text-black"> Idrissa Sarr, Hubert Naacke, Ndiouma Bame, Ibrahima Gueye, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/13-Paper_ARIMA_Journal-vol.21_2015.pdf"
+                        class="text-blue-600 underline">Optimisation de requêtes dynamiques pour l'analyse de la biodiversité</a>,
+                      <span class="italic text-black"> TNdiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/22-Paper_INIS_2015.pdf"
+                      class="text-blue-600 underline">GRAPP&S, a Peer-to-Peer Middleware for Interlinking and Sharing Educational Resources</a>,
+                    <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-black z-10 bg-white font-thin">
+                    <div>2015</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-white z-10 bg-black font-thin">
+                    <div>2015</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/13-Paper_ARIMA_Journal-vol.21_2015.pdf"
+                        class="text-blue-600 underline">Optimisation de requêtes dynamiques pour l'analyse de la biodiversité</a>,
+                      <span class="italic text-black"> Ndiouma Bame, Hubert Naacke, Idrissa Sarr, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/22-Paper_INIS_2015.pdf"
+                      class="text-blue-600 underline">GRAPP&S, a Peer-to-Peer Middleware for Interlinking and Sharing Educational Resources</a>,
+                    <span class="italic text-black"> Thierno Ahmadou DIALLO, Olivier FLAUZAC, Luiz Angelo STEFFENEL, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/1-Paper_IEEE_2017.pdf"
+                        class="text-blue-600 underline">S-FPG: A parallel version of FP-Growth algorithm under Apache Spark</a>,
+                      <span class="italic text-black"> Aissatou Diaby dite Gassama, Fodé Camara, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/18-Paper_IEEE_ICETAS_2017.pdf"
+                      class="text-blue-600 underline">Variety of  data in the ETL processes in the cloud: state of the art</a>,
+                    <span class="italic text-black"> Papa Senghane Diouf, Aliou Boly, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-black z-10 bg-white font-thin">
+                    <div>2017</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-white z-10 bg-black font-thin">
+                    <div>2018</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/14-Paper_ChapterSpringer_AFRICATEK_2018_2018.pdf"
+                        class="text-blue-600 underline">Two Parallelized Filter Methods for Feature Selection Based on Spark</a>,
+                      <span class="italic text-black"> Reine Marie Ndéla Marone, Fodé Camara, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Demba Kande</span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/15-Paper_ChapterSpringer_InterSol_2018.pdf"
+                      class="text-blue-600 underline">A Parallelized mRMR Method for Feature Selection Based on Spark</a>,
+                    <span class="italic text-black"> Reine Marie Ndéla Marone, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/16-Paper_IEEE_ICCC_2018.pdf"
+                      class="text-blue-600 underline">LSIS: Large Scale Instance Selection Algorithm for Big Data</a>,
+                    <span class="italic text-black"> Reine Marie Ndéla Marone, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/17-Paper_IEEE_ISCMI_2018.pdf"
+                      class="text-blue-600 underline">A Large-Scale Filter Method for Feature Selection Based on Spark</a>,
+                    <span class="italic text-black"> Reine Marie Ndéla Marone, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/19-Paper_IEEE_ICIRD_2018.pdf"
+                      class="text-blue-600 underline">Variety of  data in the ETL processes in the cloud: state of the art</a>,
+                    <span class="italic text-black"> Papa Senghane Diouf, Aliou Boly, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/2-Paper_ChapterBook_Springer_AFRICATEK2018_2018.pdf"
+                      class="text-blue-600 underline">Vector Space Model of Text Classification Based on Inertia Contribution of Document</a>,
+                    <span class="italic text-black"> Demba Kandé, Fodé Camara, Reine Marie Marone, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/3-Paper_IEEE_ICETAS_2018.pdf"
+                      class="text-blue-600 underline">Term weighting schemes alternative to TF-IDF based on the Vector Space Model (VSM):  state-of-the-art</a>,
+                    <span class="italic text-black"> Demba Kandé, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                    <li class="mb-5"> <a href="../public/pdfs/publication/4-Paper_ACM_ICKEA_2018.pdf"
+                      class="text-blue-600 underline">A Novel Term Weighting Scheme Model</a>,
+                    <span class="italic text-black"> Demba Kandé, Reine Marie Marone, Fodé Camara, <span
+                        class="font-bold underline">Samba
+                        Ndiaye</span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row w-full">
+              <!-- left col -->
+
+              <div class="w-2/5 px-2 py-10">
+                <div class="flex flex-col w-full rounded-lg shadow bg-white px-4 py-5">
+                  <ul class="list-decimal px-2">
+                    <li class="mb-5"> <a href="../public/pdfs/publication/5-Paper_IEEE_ICIM_2019.pdf"
+                        class="text-blue-600 underline">FWLSA-score: French and Wolof Lexicon-based for Sentiment Analysis </a>,
+                      <span class="italic text-black"> Demba Kandé, Fodé Camara, <span
+                          class="font-bold underline">Samba
+                          Ndiaye</span>, Fodé M. L. Guirassy</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!--line column-->
+              <div class="w-1/5  flex justify-center">
+                <div class="relative flex h-full w-1 bg-green-300 items-center justify-center">
+                  <div
+                    class="absolute flex flex-col justify-center h-24 w-24 rounded-full border-2 border-green-300 leading-none text-center text-black z-10 bg-white font-thin">
+                    <div>2019</div>
+                  </div>
+                </div>
+              </div>
+              <!--right column-->
+              <div class="w-2/5 px-2 py-10 ">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- <div class="">
-    <div class="domain">
-      <h1 class="text-3xl">Domaines de recherche</h1>
-      <div class="">
-        <span><i class="fa fa-database fa-5x" aria-hidden="true"></i></span> 
-        <div class="">Distributed database systems /Distributed systems</div>
-      </div>
-      <div>Datamining/Textmining/ Business Intelligence</div>
-      <div>Technologies for development</div>
-    </div>
-    <div class="publications">
-      <h1 class="text-3xl">Liens vers les publications</h1>
-      <embed width="500" height="500" name="plugin" src="../public/pdfs/CV.pdf" type="application/pdf">
-    </div>
-  </div> -->
 </body>
 
 </html>
